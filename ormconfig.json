@@ -1,0 +1,12 @@
+{
+  "type": "mysql",
+  "host": "localhost",
+  "port" : 3306,
+  "username": "root",
+  "password": "matilareo123",
+  "database": "fullstack_app",
+  "entities":[
+    "src/entities/**/**.ts"
+  ],
+  "synchronize":true
+}
